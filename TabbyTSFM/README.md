@@ -9,7 +9,7 @@ anomaly detection.
 ```text
 src/tabby/
   models/             canonical Tabby-Pretrain backbone
-  data/               BLAST, KernelSynth readers, and CauKer V2
+  data/               GIFT-Eval-Pretrain, BLAST, KernelSynth readers, and CauKer V2
   utils/              shared preprocessing
   predictor.py        GluonTS-compatible base predictor
   posttraining/       prompt model, data split, and metrics
