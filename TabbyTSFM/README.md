@@ -194,15 +194,7 @@ mkdir -p output/results
 cp -r /path/to/TabbyTSFM/results/tabby_time output/results/tabby_pretrain
 python scripts/compute_local_leaderboard.py
 ```
-
-```text
-         model  MASE (norm.)  CRPS (norm.)  MASE_rank  CRPS_rank
-tabby_pretrain         0.691         0.576      1.061      1.041
-seasonal_naive         1.000         1.000      1.939      1.959
-```
-
-Lower is better and Seasonal Naive is 1.0, so the first column reads directly as
-the fraction of the baseline's error. The layout under `output/results/` has to
+The layout under `output/results/` has to
 be `<model>/<dataset>/<freq>/<term>/metrics.npz`, which is exactly what
 `--output_dir` produces; only the model-name level is added by the copy.
 
