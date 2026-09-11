@@ -24,6 +24,8 @@ This repository is a collection of trustworthy AI related works from Huawei Noah
 - Research works related to causality. We will continuously add new methods here.
 - Currently contains implementations of CausalVAE, GAE, and causal discovery with reinforcement learning.
 
+---
+
 ### TabbyTSFM
  
 - **Tabby**, a time series foundation model proposed by the Paris team of Huawei Noah's Ark Lab, supporting forecasting, classification, and anomaly detection. Its pretraining code is fully open-sourced here.
